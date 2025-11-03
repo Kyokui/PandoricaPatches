@@ -1,0 +1,11 @@
+{
+    "type": "content",
+    "modid": "pandoricapatches",
+    "name": "Pandorica Server Patches",
+    "description": "A charcuterie board of mod patches for the Pandorica server",
+    "authors": [ "Kyokui" ],
+    "version": "0.1.0",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "dependencies": {}
+  }
