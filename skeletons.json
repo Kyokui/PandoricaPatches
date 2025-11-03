@@ -1,0 +1,87 @@
+[
+    {
+        "file": "skeletons:config/traits.json",
+        "op": "replace",
+        "path": "/1/attributes/hungerrate",
+        "value": -0.79
+    },
+    {
+        "file": "skeletons:config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value":   {
+            "code": "skeletons-calcium",
+            "type": "positive",
+            "attributes": {
+                "dairyNutritionFactor": 1.5
+            }
+        }
+    },
+    {
+        "file": "skeletons:config/traits.json",
+        "op": "add",
+        "path": "/-",
+        "value":   {
+            "code": "skeletons-darkdamage",
+            "type": "positive",
+            "attributes": {
+                "darknessDamageFactor": 1.5
+            }
+        }
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/5/traits/-",
+        "value": "smith"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/0/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/1/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/2/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/3/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/4/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file": "skeletons:config/characterclasses.json",
+        "op": "add",
+        "path": "/5/traits/-",
+        "value": "skeletons-darkdamage"
+    },
+    {
+        "file":"skeletons:config/customplayermodels/skeleton.json",
+        "op": "add",
+        "path": "/skeleton/ExtraTraits/-",
+        "value": "skeletons-calcium"
+    },
+    {
+        "file": "skeletons:config/customplayermodels/skeleton.json",
+        "op": "replace",
+        "path": "/skeleton/AvailableClasses",
+        "value": ["skeletons-commoner", "skeletons-archer", "skeletons-spearman", "skeletons-swordsman", "skeletons-smith", "mystic", "mason", "alchemyst", "artisan", "merchant", "miner", "medic", "tinker", "clockmaker", "blackguard", "tailor"]
+    }
+  ]
+  
